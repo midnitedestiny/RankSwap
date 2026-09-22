@@ -1,0 +1,21 @@
+## Interface: 16001
+## Title: RankSwap
+## Notes: Automatically updates action bar spells to their highest learned rank when closing a class trainer.
+## Author: Midnitedestiny
+## Version: 1.01
+## IconTexture: Interface\Icons\Spell_Nature_Regeneration
+## Category: Action Bars
+## SavedVariables: RankSwapDB
+## X-Curse-Project-ID: 1703909
+## X-License: All Rights Reserved 2026
+## X-Website: https://github.com/midnitedestiny/RankSwap
+
+## AddonCompartmentFunc: RankSwap_OnAddonCompartmentClick
+## AddonCompartmentFuncOnEnter: RankSwap_OnAddonCompartmentEnter
+## AddonCompartmentFuncOnLeave: RankSwap_OnAddonCompartmentLeave
+
+Libs\LibStub\LibStub.lua
+Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+Libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
+
+RankSwap.lua
